@@ -343,16 +343,22 @@ private:
 	TH2F *electron_xy_map = nullptr;
 
 	// Gamma-ray coincidence matrices with and without addback
-	TH1F *gamma_gamma_td = nullptr, *gamma_gamma_td_prompt = nullptr, *gamma_gamma_td_random = nullptr;
+	TH1F *gamma_gamma_td = nullptr;
+	TH1F *gamma_gamma_td_prompt = nullptr;
+	TH1F *gamma_gamma_td_random = nullptr;
 	TH2F *gE_gE = nullptr, *gE_gE_ebis_on = nullptr;
 	TH2F *aE_aE = nullptr, *aE_aE_ebis_on = nullptr;
 
 	// Electron coincidence matrices
-	TH1F *electron_electron_td = nullptr, *electron_electron_td_prompt = nullptr, *electron_electron_td_random = nullptr;
-	TH2F *eE_eE = nullptr, *eE_eE_ebis_on = nullptr;
+	TH1F *electron_electron_td = nullptr;
+	TH1F *electron_electron_td_prompt = nullptr;
+	TH1F *electron_electron_td_random = nullptr;
+	TH2F *eE_eE, *eE_eE_ebis_on = nullptr;
 
 	// Gamma-Electron coincidence matrices
-	TH1F *gamma_electron_td = nullptr, *gamma_electron_td_prompt = nullptr, *gamma_electron_td_random = nullptr;
+	TH1F *gamma_electron_td= nullptr;
+	TH1F *gamma_electron_td_prompt = nullptr;
+	TH1F *gamma_electron_td_random = nullptr;
 	TH2F *gE_eE = nullptr, *gE_eE_ebis_on = nullptr;
 	TH2F *aE_eE = nullptr, *aE_eE_ebis_on = nullptr;
 
